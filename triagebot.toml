@@ -1,0 +1,18 @@
+[relabel]
+allow-unauthenticated = ["bug", "invalid", "question", "enhancement"]
+
+[assign]
+
+[note]
+
+[ping.wg-meta]
+message = """\
+This is just testing some functionality, please ignore this ping.
+"""
+label = "help wanted"
+
+[autolabel."T-rustdoc"]
+trigger_files = [
+    # Source code
+    "README.md"
+]
