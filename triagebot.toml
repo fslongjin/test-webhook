@@ -15,5 +15,4 @@ label = "help wanted"
 trigger_files = [
     # Source code
     "README.md",
-    "**
 ]
